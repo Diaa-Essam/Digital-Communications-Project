@@ -22,3 +22,15 @@ xlabel('Time');
 ylabel('Amplitude');
 title('BPSK Signal');
 grid on;
+
+
+% FFT
+Y = fft(signal);
+f = linspace(-fs/2, fs/2, length(Y));
+
+figure;
+plot(f, fftshift(abs(Y)));
+xlabel('Frequency');
+ylabel('Magnitude');
+title('BPSK Spectrum');
+grid on;
