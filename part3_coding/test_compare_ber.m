@@ -31,3 +31,14 @@ xlabel('Channel Error Probability(p)');
 ylabel('BER');
 title('BER Comparison');
 grid on;
+
+
+grid on;
+
+% Observation:
+% Repetition coding reduces BER compared to uncoded transmission.
+% The improvement happens because each bit is transmitted multiple times,
+% allowing the receiver to correct some random channel errors using majority voting.
+%
+% At high channel error probabilities, both systems degrade,
+% since too many bit errors occur.
