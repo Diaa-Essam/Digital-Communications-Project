@@ -39,12 +39,12 @@ end
 % Plot
 figure;
 
-plot(p_values, ber_uncoded, 'LineWidth', 2);
+semilogy(p_values, ber_uncoded, 'LineWidth', 2);
 hold on;
 
-plot(p_values, ber_coded(1,:), 'LineWidth', 2);
-plot(p_values, ber_coded(2,:), 'LineWidth', 2);
-plot(p_values, ber_coded(3,:), 'LineWidth', 2);
+semilogy(p_values, ber_coded(1,:), 'LineWidth', 2);
+semilogy(p_values, ber_coded(2,:), 'LineWidth', 2);
+semilogy(p_values, ber_coded(3,:), 'LineWidth', 2);
 
 legend('Uncoded', 'L = 3', 'L = 5', 'L = 7');
 
