@@ -65,6 +65,15 @@ for k = 1:length(p_values)
 
 end
 
+disp('Coding Overhead: ');
+
+for j = 1:length(L_values)
+    L = L_values(j);
+    
+    transmitted_bits = N * L;
+    fprintf('L = %d -> Transmitted Bits = %d\n', L, transmitted_bits);
+end
+
 % -------- Plot Results --------
 figure;
 
