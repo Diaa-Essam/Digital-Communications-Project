@@ -85,6 +85,13 @@ for j = 1:length(L_values)
     
 end
 
+[min_ber, idx] = min(ber_coded(:, end));
+
+best_L = L_values(idx);
+fprintf('\nBest repetition factor at high noise: L = %d\n', best_L);
+fprintf('Minimum BER = %.5f\n', min_ber);
+
+
 % -------- Plot Results --------
 figure;
 
