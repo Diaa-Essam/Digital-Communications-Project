@@ -74,6 +74,17 @@ for j = 1:length(L_values)
     fprintf('L = %d -> Transmitted Bits = %d\n', L, transmitted_bits);
 end
 
+disp('Code Rates: ');
+
+for j = 1:length(L_values)
+    L = L_values(j);
+    
+    R = 1 / L;
+    
+    fprintf('L = %d -> Code Rate = %.3f\n', L, R);
+    
+end
+
 % -------- Plot Results --------
 figure;
 
