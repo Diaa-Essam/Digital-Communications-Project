@@ -2,6 +2,8 @@ clc;
 clear;
 close all;
 
+tic;
+
 N = 1000;                          % Number of transmitted bits
 
 L_values = [3 5 7];                % Repetition factors
@@ -92,6 +94,8 @@ fprintf('\nBest repetition factor at high noise: L = %d\n', best_L);
 fprintf('Minimum BER = %.5f\n', min_ber);
 
 
+elapsed_time = toc;
+fprintf('\nExecution Time = %.3f seconds\n', elapsed_time);
 % -------- Plot Results --------
 figure;
 
