@@ -1,13 +1,14 @@
 # Digital Communications Lab Project
 
 ## Team Members
-- Member 1
-- Member 2
-- Member 3
-- Member 4
-- Member 5
-- Member 6
-- Member 7
+  Name:                                    ID:
+- Mennat Allah Ayman Hassan                2204101
+- Mennat Allah Mohamed Mahmoud             2204102
+- Mai Kamal Mohamed                        2204103
+- Yasmeen Ahmed Youssef                    2204110
+- Youmna Ahmed Youssef                     2204113
+- Mohamed Nashaat Safwat                   2204084
+- Diaa El-din Essam Hassan Elgwely         2204042
 
 ## Project Structure
 - part1_bandlimited: ISI due to band-limited channels
