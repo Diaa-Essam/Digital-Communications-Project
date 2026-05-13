@@ -1,7 +1,7 @@
 # Digital Communications Lab Project
 
 ## Team Members
-  Name:                                    ID:
+
 - Mennat Allah Ayman Hassan                2204101
 - Mennat Allah Mohamed Mahmoud             2204102
 - Mai Kamal Mohamed                        2204103
